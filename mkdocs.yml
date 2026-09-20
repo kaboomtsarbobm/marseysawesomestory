@@ -6,7 +6,8 @@ theme:
    scheme: slate
    primary: deep orange
    accent: deep orange
-
+   logo: assets/134.png
+   favicon: images/marsey.png
   features:
     - navigation.instant
     - navigation.instant.progress
