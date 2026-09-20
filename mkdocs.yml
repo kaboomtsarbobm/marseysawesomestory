@@ -33,6 +33,8 @@ nav:
     - Tic Tac Toe: evals/tic.md
     - DOOM: evals/doom.md
     - BLACKJACK: evals/blackjack.md
+    - Slot Machine: evals/slots.md
+    - Delete every channel (DANGER): evals/delete.md
 
   - Random Shit: 
     - Oddcards: random/michaelhuang.md
