@@ -1,0 +1,39 @@
+site_name: Mangos Random Shit
+site_url: https://mydomain.org/mysite
+theme:
+  name: material
+  palette: 
+   scheme: slate
+   primary: deep orange
+   accent: deep orange
+
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - search.suggest
+
+plugins:
+  - search
+  - tags
+
+nav:
+  - Home: index.md
+  - Tutorials:
+    - Makin ballsdex clones: tutorials/dexes.md
+    - Be Michael Huang: tutorials/michaelhuang.md
+  
+  - Silly Evals:
+    - Tic Tac Toe: evals/tic.md
+    - DOOM: evals/doom.md
+    - BLACKJACK: evals/blackjack.md
+
+  - Random Shit: 
+    - Oddcards: random/michaelhuang.md
+    - Back To Work: random/sam.md
+    - Pure Evil: random/marseythecat.md
