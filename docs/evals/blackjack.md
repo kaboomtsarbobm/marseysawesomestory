@@ -4,8 +4,7 @@ Kids, dont gamble. (REQUIRES NITRO)
 
 Keep in mind this requires a ballsdex clone! Please follow the tutorial for that in the Tutorials category if you want to make one!
 
-
-``` py 
+``` py
 import discord
 import random
 
@@ -145,7 +144,6 @@ view.add_item(hit_button)
 view.add_item(stand_button)
 view.add_item(double_button)
 
-# Initial blackjack
 if value(player) == 21:
     await ctx.send(
         f"🃏 **Blackjack!**\n\n"
@@ -154,8 +152,7 @@ if value(player) == 21:
     )
 else:
     await ctx.send(game_text(), view=view)
-    ```
-
+```
 
 
 Enjoy my page!!
