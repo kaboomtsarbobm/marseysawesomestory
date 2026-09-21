@@ -5,7 +5,7 @@ Kids, dont gamble. (REQUIRES NITRO)
 Keep in mind this requires a ballsdex clone! Please follow the tutorial for that in the Tutorials category if you want to make one!
 
 
-import discord
+```import discord
 import random
 
 deck = [
@@ -152,7 +152,7 @@ if value(player) == 21:
         f"**You:** {cards(player)} — **21**"
     )
 else:
-    await ctx.send(game_text(), view=view)
+    await ctx.send(game_text(), view=view)```
 
 
 

@@ -6,7 +6,7 @@ Keep in mind this requires a ballsdex clone! Please follow the tutorial for that
 
 
 
-import discord
+```import discord
 import random
 
 class DoomView(discord.ui.View):
@@ -123,7 +123,7 @@ await ctx.send(
     "💀 **WELCOME TO DOOM**\n\n"
     "A demon is approaching. **Kill it.**\n\n" + view.status(),
     view=view
-)
+)```
 
 
 Enjoy my page!!

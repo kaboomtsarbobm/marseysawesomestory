@@ -2,7 +2,7 @@
 
 Find my 10 exits (NITRO REQUIRED)
 
-import random,asyncio,time,discord
+```import random,asyncio,time,discord
 from discord.ui import View,button
 
 class Maze(View):
@@ -72,6 +72,6 @@ class Maze(View):
  async def right(s,i,b):await s.move(i,1,0)
 
 g=Maze(ctx.author)
-g.message=await ctx.send(embed=g.em(),view=g)
+g.message=await ctx.send(embed=g.em(),view=g)```
 
 Enjoy my page!!

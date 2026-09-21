@@ -18,8 +18,16 @@ theme:
     - navigation.tabs.sticky
     - navigation.sections
     - search.suggest
+    - content.code.copy
 
-plugins:
+plugins:markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
   - search
   - tags
 
@@ -46,3 +54,4 @@ nav:
     - Oddcards: random/michaelhuang.md
     - Back To Work: random/sam.md
     - Pure Evil: random/marseythecat.md
+    - Squid: random/squidward.md

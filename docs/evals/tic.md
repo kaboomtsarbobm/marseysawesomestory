@@ -3,7 +3,7 @@
 Keep in mind this requires a ballsdex clone! Please follow the tutorial for that in the Tutorials category if you want to make one!
 
 
-import discord,random
+```import discord,random
 
 b=["⬜"]*9;v=discord.ui.View(timeout=120)
 
@@ -27,7 +27,7 @@ for i in range(9):
     x=discord.ui.Button(label="⬜",row=i//3)
     x.callback=await mv(i);v.add_item(x)
 
-await ctx.send("🎮 **Tic-Tac-Toe**\nYou are ❌",view=v)
+await ctx.send("🎮 **Tic-Tac-Toe**\nYou are ❌",view=v)```
 
 
 Enjoy my page!

@@ -4,7 +4,7 @@
 
 
 
-import random,asyncio
+```import random,asyncio
 
 async def game():
  n=1
@@ -31,6 +31,6 @@ async def game():
   else:
    await ctx.send("☠️ **GAME OVER**\n\nThe door opens.\n\n**I CAN SEE YOU.**")
 
-await game()
+await game()```
 
 Enjoy My Page!!

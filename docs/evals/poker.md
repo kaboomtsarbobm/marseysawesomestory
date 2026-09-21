@@ -4,7 +4,7 @@ Hey lovelies!! This eval is quite buggy, so expect it to kinda make your bot a l
 
 (NITRO REQUIRED)
 
-import random,discord
+```import random,discord
 from discord.ui import View,button,Modal,TextInput
 M={};R="23456789TJQKA";S="♠♥♦♣"
 def rank(c):
@@ -61,7 +61,7 @@ class E(View):
  async def play(s,i,b):
   g=P(s.g.u);await i.response.edit_message(embed=g.e("♠️ NEW HAND",g.info()),view=g)
 u=ctx.author.id;M.setdefault(u,500);g=P(u)
-await ctx.send(embed=g.e("♠️ ROYAL POKER",f"{ctx.author.mention}\n\n{g.info()}\n\n💵 **BET $1-$250**\n🔥 **ALL IN**\n\nWin → **CASH OUT** or **KEEP PLAYING**"),view=g)
+await ctx.send(embed=g.e("♠️ ROYAL POKER",f"{ctx.author.mention}\n\n{g.info()}\n\n💵 **BET $1-$250**\n🔥 **ALL IN**\n\nWin → **CASH OUT** or **KEEP PLAYING**"),view=g)```
 
 
 Enjoy my page!!
