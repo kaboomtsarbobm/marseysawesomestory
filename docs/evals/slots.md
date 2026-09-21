@@ -3,7 +3,7 @@
 Kids, dont gamble. (NITRO IS REQUIRED.)
 
 
-```import random,asyncio,discord
+``` py import random,asyncio,discord
 from discord.ui import View,button
 
 money={}

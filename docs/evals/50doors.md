@@ -4,7 +4,7 @@
 
 
 
-```import random,asyncio
+``` py import random,asyncio
 
 async def game():
  n=1

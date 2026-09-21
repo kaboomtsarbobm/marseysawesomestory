@@ -4,7 +4,7 @@ Hey lovelies!! This eval is quite buggy, so expect it to kinda make your bot a l
 
 (NITRO REQUIRED)
 
-```import random,discord
+``` py import random,discord
 from discord.ui import View,button,Modal,TextInput
 M={};R="23456789TJQKA";S="♠♥♦♣"
 def rank(c):

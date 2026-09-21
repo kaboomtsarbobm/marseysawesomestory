@@ -5,7 +5,7 @@ Kids, dont gamble. (REQUIRES NITRO)
 Keep in mind this requires a ballsdex clone! Please follow the tutorial for that in the Tutorials category if you want to make one!
 
 
-```import discord
+``` py import discord
 import random
 
 deck = [

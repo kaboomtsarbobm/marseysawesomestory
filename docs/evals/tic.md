@@ -3,7 +3,7 @@
 Keep in mind this requires a ballsdex clone! Please follow the tutorial for that in the Tutorials category if you want to make one!
 
 
-```import discord,random
+``` py import discord,random
 
 b=["⬜"]*9;v=discord.ui.View(timeout=120)
 

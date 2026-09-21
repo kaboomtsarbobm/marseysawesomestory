@@ -5,7 +5,7 @@ Hey parents check your kids devices! Your child is on a eval made for 13+ users 
 (NITRO NEEDED)
 
 
-```import random,asyncio,discord
+``` py import random,asyncio,discord
 from discord.ui import View,button
 
 class R(View):

@@ -6,7 +6,7 @@ Keep in mind this requires a ballsdex clone! Please follow the tutorial for that
 
 
 
-```import discord
+``` py import discord
 import random
 
 class DoomView(discord.ui.View):
