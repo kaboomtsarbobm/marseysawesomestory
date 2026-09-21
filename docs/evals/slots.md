@@ -3,7 +3,8 @@
 Kids, dont gamble. (NITRO IS REQUIRED.)
 
 
-``` py import random,asyncio,discord
+``` py 
+import random,asyncio,discord
 from discord.ui import View,button
 
 money={}
@@ -73,7 +74,8 @@ u=ctx.author.id
 money.setdefault(u,100)
 e=discord.Embed(title="🎰 LUCKY SLOTS 🎰",description=f"👤 Player: {ctx.author.mention}\n💰 Balance: ${money[u]:,}\n\n━━━━━━━━━━━━━━━━━━━━\n🎰 Spin $10 — 25% win\n⚡ Double Down $25 — 5% win / ×2 loss\n💵 Borrow $100 — $200 fine\n💰 Borrow $1,000 — $10,000 fine\n💥 Jackpot — 2% when bankrupt",color=0x8B5CF6)
 e.set_footer(text="🎰 Lucky Slots • High risk, high reward!")
-await ctx.send(embed=e,view=Slots(u))```
+await ctx.send(embed=e,view=Slots(u))
+```
 
 
 

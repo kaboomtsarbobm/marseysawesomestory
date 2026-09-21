@@ -5,7 +5,8 @@ Hey parents check your kids devices! Your child is on a eval made for 13+ users 
 (NITRO NEEDED)
 
 
-``` py import random,asyncio,discord
+``` py 
+import random,asyncio,discord
 from discord.ui import View,button
 
 class R(View):
@@ -58,6 +59,7 @@ class R(View):
    s.stop();await i.response.edit_message(embed=s.E("💵 CASHED OUT",f"You leave with **${s.me:,}**.",0x22C55E),view=None)
 
 g=R(ctx.author.id)
-await ctx.send(embed=g.E("🎲 LIFE OR DEATH",f"👤 **{ctx.author.mention}**\n\n💰 You and each opponent start with **$100**.\n🎲 Risk rises every turn.\n🔄 Spin lowers the current chance.\n⏭️ Skip gives the other player **2 chances if they survive**.\n☠️ **7/7 = instant loss.**\n♾️ Defeat an opponent to face another."),view=g)```
+await ctx.send(embed=g.E("🎲 LIFE OR DEATH",f"👤 **{ctx.author.mention}**\n\n💰 You and each opponent start with **$100**.\n🎲 Risk rises every turn.\n🔄 Spin lowers the current chance.\n⏭️ Skip gives the other player **2 chances if they survive**.\n☠️ **7/7 = instant loss.**\n♾️ Defeat an opponent to face another."),view=g)
+```
 
 Enjoy My Page!!
